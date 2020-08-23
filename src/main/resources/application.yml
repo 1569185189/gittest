@@ -1,0 +1,32 @@
+myobject:
+  name: ${student.sname}
+  age: 18
+  price: 19.0
+  booknames: [西游记,红楼梦,三国演义]
+#  booknames:
+#    - 西游记
+#    - 红楼梦
+#    - 三国演义
+
+# Map类型的数据可以不能为中文
+  friends: {k1: 去,k2: 我}
+#  friends:
+#    k1: 去
+#    k2: 我
+  student:
+    sid: 1
+    sname: 小明
+    score: 85.0
+
+  students:
+    -
+      sid: 2
+      sname: 小小2
+      score: 90.0
+    - sid: 3
+      sname: 小小3
+      score: 80.0
+    -
+      sid: 4
+      sname: 小小4
+      score: 100.0
